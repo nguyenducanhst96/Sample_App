@@ -1,10 +1,9 @@
-<% provide(:title, "Help") %>
-    <h1>Help</h1>
-    <p>
-      Get help on the Ruby on Rails Tutorial at the
-      <a href="http://www.railstutorial.org/help">Rails Tutorial help
-      section</a>.
-      To get help on this sample app, see the
-      <a href="http://www.railstutorial.org/book"><em>Ruby on Rails
-      Tutorial</em> book</a>.
-    </p>
+<%= provide :title, t(".title_help") %>
+  <h1><%= t ".heading_help" %></h1>
+  <p>
+    <%= t ".get_help_on_the_ruby_on_rails_tutorial_at_the" %>
+    <%= link_to t(".title_url_help"), t(".url_help") %>.
+    <%= t ".to_get_help_on_this_sample_app_see_the" %>
+    <%= link_to  %Q(<em>#{t(".title_url_book")}</em> #{t(".book")}).html_safe, t(".url_book") %><%= t ".end_content_help" %>
+  </p>
+  

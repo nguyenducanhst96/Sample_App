@@ -30,4 +30,72 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  application:
+    full_title:
+      base_title: "Ruby on Rails Tutorial Sample App"
+  static_page:
+    home:
+      welcome_to_the_sample_app: "Welcome to the Sample App"
+      this_is_the_home_page_for_the: "This is the home page for the"
+      url_railstutorial: "http://www.railstutorial.org/"
+      title_url_railstutorial: "Ruby on Rails Tutorial"
+      sample_application: "sample application."
+      sign_up_now: "Sign up now!"
+      img_rails: "rails.png"
+      alt_img_rails: "Rails logo"
+    help:
+      title_help: "Help"
+      heading_help: "Help"
+      get_help_on_the_ruby_on_rails_tutorial_at_the: "Get help on the Ruby on Rails Tutorial at the"
+      url_help: "http://www.railstutorial.org/help"
+      title_url_help: "Rails Tutorial help section"
+      to_get_help_on_this_sample_app_see_the: "To get help on this sample app, see the"
+      url_book: "http://www.railstutorial.org/book"
+      title_url_book: "Ruby on Rails Tutorial"
+      book: "book"
+      end_content_help: "."
+    about:
+      title_about: "About"
+      heading_about: "About"
+      the: "The"
+      url_rails: "http://www.railstutorial.org/"
+      title_url_rails: "Ruby on Rails Tutorial"
+      is_a: "is a"
+      url_book: "http://www.railstutorial.org/book"
+      title_url_book: "book"
+      and: "and"
+      url_screencast_series: "http://www.railstutorial.org/"
+      title_url_screencast_series: "screencast series"
+      to_teach_web_development_with: "to teach web development with"
+      url_ruby_on_rails: "http://www.railstutorial.org/"
+      title_url_ruby_on_rails: "Ruby on Rails"
+      this_is_the_sample_application_for_the_tutorial: ". This is the sample application for the tutorial." 
+    contact:
+      title_contact: "Contact"
+      heading_contact: "Contact"
+      contact_the_ruby_on_rails_tutorial_about_the_sample_app_at_the: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      url_contact: "http://www.railstutorial.org/contact"
+      title_url_contact: "contact page"
+      end_content_contact: "."
+  users:
+    new:
+      title_new: "Sign up"
+      heading_new: "Sign up"
+      this_will_be_a_signup_page_for_new_users: "This will be a signup page for new users."
+  layouts:
+    footer:
+      the: "The"
+      url_rails: "http://www.railstutorial.org/"
+      ror_tutorial: "Ruby on Rails Tutorial"
+      by: "by"
+      url_michael_hartl: "http://www.michaelhartl.com/"
+      michael hartl: "Michael Hartl"
+      title_url_about: "About"
+      title_url_contact: "Contact"
+      url_news: "http://news.railstutorial.org/"
+      title_url_news: "News"
+    header:
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
