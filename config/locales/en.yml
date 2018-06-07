@@ -82,6 +82,12 @@ en:
       title_new: "Sign up"
       heading_new: "Sign up"
       this_will_be_a_signup_page_for_new_users: "This will be a signup page for new users."
+      label_password_confirmation: "Confirmation"
+      submit_account: "Create my account"
+    create:
+      flash_for_success: "Welcome to the Sample App!"
+    show:
+      flash_for_danger: "Not found user"
   layouts:
     footer:
       the: "The"
@@ -99,3 +105,6 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+  shared:
+    the_form_contains: "The form contains"
+    error: "error"
