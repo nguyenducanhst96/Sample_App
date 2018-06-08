@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get "/help", to: "static_page#help"
   get "/about", to: "static_page#about"
   root "static_page#home"
-  post "/signup",  to: "users#create"
+  post "/signup", to: "users#create"
+  get "/login", to: "sessions#new"
+  post "/login", to: "sessions#create"
+  delete "/logout", to: "sessions#destroy"
   resources :users
 end
