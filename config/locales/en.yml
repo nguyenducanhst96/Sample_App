@@ -88,6 +88,15 @@ en:
       flash_for_success: "Welcome to the Sample App!"
     show:
       flash_for_danger: "Not found user"
+  sessions:
+    create:
+      content_danger: "Invalid email/password combination"
+    new:
+      title_new: "Log in"
+      heading_new: "Log in"
+      submit_login: "Log in"
+      title_url_sign_up: "Sign up now!"
+      new_user: "New user?"
   layouts:
     footer:
       the: "The"
@@ -104,7 +113,13 @@ en:
       sample_app: "sample app"
       home: "Home"
       help: "Help"
-      login: "Log in"
+      account: "Account"
+      title_url_users: "Users"
+      title_url_profile: "Profile"
+      title_url_setting: "Settings"
+      title_url_logout: "Log out"
+      title_url_login: "Log in"
+
   shared:
     the_form_contains: "The form contains"
     error: "error"
