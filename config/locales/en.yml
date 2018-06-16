@@ -57,6 +57,25 @@ en:
       flash_for_success: "Welcome to the Sample App!"
     show:
       flash_for_danger: "Not found user"
+    user:
+      title_url_delete: "delete"
+      content_confirm: "You sure?"
+    edit:
+      title_edit: "Edit user"
+      heading_edit: "Update your profile"
+      content_submit: "Save changes"
+      content_url_change: "change"
+      confirmation: "Confirmation"
+      url_gravatar: "http://gravatar.com/emails"
+    index:
+      title_index: "All users"
+      heading_index: "All users"
+    destroy:
+      flash_success: "User deleted"
+    update:
+      flash_success: "Profile updated"
+    logged_in_user:
+      flash_create_danger: "Please log in."
   sessions:
     create:
       content_danger: "Invalid email/password combination"
