@@ -55,6 +55,7 @@ en:
       submit_account: "Create my account"
     create:
       flash_for_success: "Welcome to the Sample App!"
+      flash_info_check_mail: "Please check your email to activate your account."
     show:
       flash_for_danger: "Not found user"
     user:
@@ -79,6 +80,7 @@ en:
   sessions:
     create:
       content_danger: "Invalid email/password combination"
+      flash_warning: "Account not activated. Check your email for the activation link."
     new:
       title_new: "Log in"
       heading_new: "Log in"
@@ -87,6 +89,22 @@ en:
       new_user: "New user?"
       content_button_login: "Log in"
       label_checkbox: "Remember me on this computer"
+  account_activations:
+    edit:
+      flash_success: "Account activated!"
+      flash_danger: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      heading: "Sample App"
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      content_url_active: "Active"
+    password_reset:
+      greeting: "Hi "
+      to: "to@example.org"
+      heading: "User#password_reset"
+      content: ", find me in app/views/user_mailer/password_reset.html.erb"
   layouts:
     footer:
       the: "The"
@@ -109,7 +127,6 @@ en:
       title_url_setting: "Settings"
       title_url_logout: "Log out"
       title_url_login: "Log in"
-
   shared:
     the_form_contains: "The form contains"
     error: "error"
