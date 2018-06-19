@@ -12,6 +12,7 @@ en:
       sign_up_now: "Sign up now!"
       img_rails: "rails.png"
       alt_img_rails: "Rails logo"
+      micropost_feed: "Micropost Feed"
     help:
       title_help: "Help"
       heading_help: "Help"
@@ -58,6 +59,7 @@ en:
       flash_info_check_mail: "Please check your email to activate your account."
     show:
       flash_for_danger: "Not found user"
+      microposts: "Microposts"
     user:
       title_url_delete: "delete"
       content_confirm: "You sure?"
@@ -73,6 +75,7 @@ en:
       heading_index: "All users"
     destroy:
       flash_success: "User deleted"
+      flash_danger: "User cannot delete"
     update:
       flash_success: "Profile updated"
     logged_in_user:
@@ -128,6 +131,18 @@ en:
       flash_success_reset: "Password has been reset."
     check_expiration:
       flash_danger_expired: "Password reset has expired."
+  microposts:
+    create:
+      flash_success: "Micropost created!"
+    destroy:
+      flash_sucess: "Micropost deleted"
+    micropost:
+      content_url_delete: "delete"
+      posted: "Posted"
+      ago : "ago."
+      data_confirm_delete: "You sure?"
+  micropost_model:
+    error_picture: "should be less than 5MB"
   layouts:
     footer:
       the: "The"
@@ -153,3 +168,11 @@ en:
   shared:
     the_form_contains: "The form contains"
     error: "error"
+    micropost_form:
+      content_placeholder: "Compose new micropost..."
+      content_submit: "Post"
+      picture_accept: "image/jpeg,image/gif,image/png"
+      alert_maximum: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      content_url_profile: "view my profile"
+      micropost: "micropost"
