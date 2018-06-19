@@ -84,6 +84,7 @@ en:
     new:
       title_new: "Log in"
       heading_new: "Log in"
+      content_url_forgot_password: "(Forgot password)"
       submit_login: "Log in"
       title_url_sign_up: "Sign up now!"
       new_user: "New user?"
@@ -101,10 +102,32 @@ en:
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       content_url_active: "Active"
     password_reset:
-      greeting: "Hi "
+      subject: "Password reset"
       to: "to@example.org"
-      heading: "User#password_reset"
-      content: ", find me in app/views/user_mailer/password_reset.html.erb"
+      heading: "Password reset"
+      content_url_reset: "Reset password"
+      content_line_3: "To reset your password click the link below:"
+      content_line_6: "This link will expire in two hours."
+      content_line_8: "If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      title_forget_password: "Forgot password"
+      heading_forget_password: "Forgot password"
+      content_button_submit: "Submit"
+    create:
+      flash_info_reset: "Email sent with password reset instructions"
+      flash_danger: "Email address not found"
+    edit:
+      title_reset: "Reset password"
+      heading_reset: "Reset password"
+      confirmation: "Confirmation"
+      content_button_submit: "Update password"
+    update:
+      error_password_empty: "can't be empty"
+      flash_success_reset: "Password has been reset."
+    check_expiration:
+      flash_danger_expired: "Password reset has expired."
   layouts:
     footer:
       the: "The"
