@@ -6,6 +6,8 @@ User:
   password:
     minimum: 6
   time_reset_expired: 2
+  show_follow:
+    gravatar_size: 30
 Micropost:
   picture_size: 5
   maximum_content: 140

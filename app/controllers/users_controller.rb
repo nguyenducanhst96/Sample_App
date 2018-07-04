@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
   before_action :find_user, only: [:show, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
+
   def index
     @users = User.paginate page: params[:page]
   end
@@ -56,12 +57,5 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-    flash[:danger] = t ".flash_for_danger"
-    redirect_to root_path
   end
 end
