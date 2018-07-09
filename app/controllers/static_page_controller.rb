@@ -2,7 +2,7 @@ class StaticPageController < ApplicationController
   def home
     return unless logged_in?
     @micropost  = current_user.microposts.build
-    @feed_items = current_user.microposts.order_micropost
+    @feed_items = current_user.feed.order_micropost
                               .paginate page: params[:page]
   end
 

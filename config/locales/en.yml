@@ -80,6 +80,18 @@ en:
       flash_success: "Profile updated"
     logged_in_user:
       flash_create_danger: "Please log in."
+    follow:
+      submit_follow: "Follow"
+    unfollow:
+      submit_unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts:"
+      content_url_profile: "view my profile"
+  follow:
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
   sessions:
     create:
       content_danger: "Invalid email/password combination"
@@ -143,6 +155,9 @@ en:
       data_confirm_delete: "You sure?"
   micropost_model:
     error_picture: "should be less than 5MB"
+  relationships:
+    find_followed:
+      flash_for_danger: "Not found user"
   layouts:
     footer:
       the: "The"
@@ -176,3 +191,6 @@ en:
     user_info:
       content_url_profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
